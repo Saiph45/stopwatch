@@ -56,3 +56,26 @@ button:hover {
 #lap-times-list li {
     margin-bottom: 10px;
 }
+
+/* Media query for max-height of 600px */
+@media (max-height: 600px) {
+    .stopwatch {
+        width: 250px;
+        margin: 20px auto;
+        padding: 15px;
+    }
+    .timer {
+        font-size: 36px;
+    }
+    button {
+        width: 80px;
+        height: 25px;
+        margin: 5px;
+    }
+    .lap-times {
+        margin-top: 15px;
+    }
+    #lap-times-list li {
+        margin-bottom: 5px;
+    }
+}
